@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		484E1FC5A7FC498DF1A2943B /* Pods_Lottie_Animations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CEEAB27353AF4F93A331E22 /* Pods_Lottie_Animations.framework */; };
 		89BD5BB9218ACCAF002E50EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BD5BB8218ACCAF002E50EB /* AppDelegate.swift */; };
 		89BD5BBB218ACCAF002E50EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BD5BBA218ACCAF002E50EB /* ViewController.swift */; };
 		89BD5BBE218ACCAF002E50EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89BD5BBC218ACCAF002E50EB /* Main.storyboard */; };
 		89BD5BC0218ACCB2002E50EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89BD5BBF218ACCB2002E50EB /* Assets.xcassets */; };
 		89BD5BC3218ACCB2002E50EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89BD5BC1218ACCB2002E50EB /* LaunchScreen.storyboard */; };
+		89BD5BCB218ACF9E002E50EB /* moving_forward.json in Resources */ = {isa = PBXBuildFile; fileRef = 89BD5BCA218ACF9D002E50EB /* moving_forward.json */; };
+		89BD5BCD218ACFAB002E50EB /* super_finger.json in Resources */ = {isa = PBXBuildFile; fileRef = 89BD5BCC218ACFAB002E50EB /* super_finger.json */; };
+		89BD5BCF218ACFAF002E50EB /* fireworks.json in Resources */ = {isa = PBXBuildFile; fileRef = 89BD5BCE218ACFAF002E50EB /* fireworks.json */; };
+		89BD5BD1218ACFB5002E50EB /* infinite_rainbow.json in Resources */ = {isa = PBXBuildFile; fileRef = 89BD5BD0218ACFB5002E50EB /* infinite_rainbow.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5051A9792046E27189998272 /* Pods-Lottie Animations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie Animations.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie Animations/Pods-Lottie Animations.debug.xcconfig"; sourceTree = "<group>"; };
+		6CEEAB27353AF4F93A331E22 /* Pods_Lottie_Animations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lottie_Animations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89BD5BB5218ACCAF002E50EB /* Lottie Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lottie Animations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89BD5BB8218ACCAF002E50EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89BD5BBA218ACCAF002E50EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,11 @@
 		89BD5BBF218ACCB2002E50EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89BD5BC2218ACCB2002E50EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89BD5BC4218ACCB2002E50EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89BD5BCA218ACF9D002E50EB /* moving_forward.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = moving_forward.json; sourceTree = "<group>"; };
+		89BD5BCC218ACFAB002E50EB /* super_finger.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = super_finger.json; sourceTree = "<group>"; };
+		89BD5BCE218ACFAF002E50EB /* fireworks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fireworks.json; sourceTree = "<group>"; };
+		89BD5BD0218ACFB5002E50EB /* infinite_rainbow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = infinite_rainbow.json; sourceTree = "<group>"; };
+		B8C4A31CFBC229BE81AEB096 /* Pods-Lottie Animations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie Animations.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie Animations/Pods-Lottie Animations.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				484E1FC5A7FC498DF1A2943B /* Pods_Lottie_Animations.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4153411B65689A96B050DBB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CEEAB27353AF4F93A331E22 /* Pods_Lottie_Animations.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		89BD5BAC218ACCAE002E50EB = {
 			isa = PBXGroup;
 			children = (
 				89BD5BB7218ACCAF002E50EB /* Lottie Animations */,
 				89BD5BB6218ACCAF002E50EB /* Products */,
+				EFF2281C8D2D0B497CB327B8 /* Pods */,
+				4153411B65689A96B050DBB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +77,10 @@
 		89BD5BB7218ACCAF002E50EB /* Lottie Animations */ = {
 			isa = PBXGroup;
 			children = (
+				89BD5BCA218ACF9D002E50EB /* moving_forward.json */,
+				89BD5BCC218ACFAB002E50EB /* super_finger.json */,
+				89BD5BD0218ACFB5002E50EB /* infinite_rainbow.json */,
+				89BD5BCE218ACFAF002E50EB /* fireworks.json */,
 				89BD5BB8218ACCAF002E50EB /* AppDelegate.swift */,
 				89BD5BBA218ACCAF002E50EB /* ViewController.swift */,
 				89BD5BBC218ACCAF002E50EB /* Main.storyboard */,
@@ -64,6 +91,15 @@
 			path = "Lottie Animations";
 			sourceTree = "<group>";
 		};
+		EFF2281C8D2D0B497CB327B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5051A9792046E27189998272 /* Pods-Lottie Animations.debug.xcconfig */,
+				B8C4A31CFBC229BE81AEB096 /* Pods-Lottie Animations.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89BD5BC7218ACCB2002E50EB /* Build configuration list for PBXNativeTarget "Lottie Animations" */;
 			buildPhases = (
+				A871F69A15A446CB5E292E02 /* [CP] Check Pods Manifest.lock */,
 				89BD5BB1218ACCAF002E50EB /* Sources */,
 				89BD5BB2218ACCAF002E50EB /* Frameworks */,
 				89BD5BB3218ACCAF002E50EB /* Resources */,
+				71911BB1CAFCD2B7DEC9E24E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,10 +163,53 @@
 				89BD5BC3218ACCB2002E50EB /* LaunchScreen.storyboard in Resources */,
 				89BD5BC0218ACCB2002E50EB /* Assets.xcassets in Resources */,
 				89BD5BBE218ACCAF002E50EB /* Main.storyboard in Resources */,
+				89BD5BCD218ACFAB002E50EB /* super_finger.json in Resources */,
+				89BD5BCF218ACFAF002E50EB /* fireworks.json in Resources */,
+				89BD5BCB218ACF9E002E50EB /* moving_forward.json in Resources */,
+				89BD5BD1218ACFB5002E50EB /* infinite_rainbow.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71911BB1CAFCD2B7DEC9E24E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Lottie Animations/Pods-Lottie Animations-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lottie Animations/Pods-Lottie Animations-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A871F69A15A446CB5E292E02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lottie Animations-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		89BD5BB1218ACCAF002E50EB /* Sources */ = {
@@ -280,10 +361,13 @@
 		};
 		89BD5BC8218ACCB2002E50EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5051A9792046E27189998272 /* Pods-Lottie Animations.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H28X75MLUY;
 				INFOPLIST_FILE = "Lottie Animations/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,10 +381,13 @@
 		};
 		89BD5BC9218ACCB2002E50EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8C4A31CFBC229BE81AEB096 /* Pods-Lottie Animations.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H28X75MLUY;
 				INFOPLIST_FILE = "Lottie Animations/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
